@@ -12,4 +12,3 @@ COPY . /opt/rails-sample-app
 RUN bundle install && \
     yarn install
 CMD bundle exec rails s -p 80 -b '0.0.0.0'
-    

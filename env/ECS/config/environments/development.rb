@@ -1,4 +1,5 @@
 Rails.application.configure do
+  config.hosts << "fargate-test-with-alb-2080666570.ap-northeast-1.elb.amazonaws.com"
   # Settings specified here will take precedence over those in config/application.rb.
 
   # In the development environment your application's code is reloaded on
